@@ -1,119 +1,106 @@
 # Nick Case
 
-Applied software developer · Geospatial systems · Educator  
-University of Wyoming · SDEV Program
+Assistant Lecturer (Applied Software Development) · Geospatial Developer  
+University of Wyoming · WyGISC · Spatial data + software systems
 
 ---
 
-## 👋 Hi — welcome
+## About
 
-I’m Nick. I build software systems that sit at the intersection of **data, maps, and people**, and I teach students how to do the same — responsibly, pragmatically, and with intent.
+I build **public-facing software** that helps people explore complex data without lying to them about what it means.
 
-This GitHub is part working lab, part teaching surface, part long-term memory.  
-If you’re one of my students: yes, this is for you.  
-If you’re not: you’re still welcome here.
+Most of my work lives at the intersection of:
 
----
+- **Applied software development** (systems that ship, survive, and get maintained)
+- **Geospatial thinking** (spatial/temporal context, scale, uncertainty, and data lineage)
+- **Education** (teaching students how professionals actually work)
 
-## 🧭 What I work on
-
-My work lives where **applied software development** meets **geospatial thinking**:
-
-- Web applications using **.NET / C#**, JavaScript, and modern APIs
-- Interactive mapping and visualization (especially spatial + temporal data)
-- Data pipelines, APIs, and systems that have to survive real users
-- Teaching software development as a *practice*, not just a syntax exercise
-
-I care a lot about:
-- Maintainable architecture
-- Clear data lineage
-- Systems that explain themselves
-- Avoiding “magic” that nobody can debug later
+I care less about shiny stacks and more about **durable architecture**, **explainable decisions**, and **workflows that don’t collapse the moment a new person touches them**.
 
 ---
 
-## 🎓 For my students
+## What I’m focused on lately
 
-If you’re here because you’re in one of my classes:
+### Teaching: software you can *operate*
+In the SDEV program, I design courses and projects to mirror real development:
 
-- This profile models **professional GitHub usage**
-- Repos are organized intentionally — not everything is “polished”
-- READMEs matter as much as code
-- Commit history tells a story — not just a final answer
+- vertical slices over “big-bang” implementations  
+- documentation as part of the deliverable (not an afterthought)  
+- CI/CD habits early  
+- pragmatic architecture patterns that students can actually sustain  
+- responsible AI use: accelerate the work, don’t outsource the thinking
 
-You’re encouraged to:
-- Read how things are structured
-- Ask *why* something was done a certain way
-- Borrow patterns, not copy blindly
-- Treat GitHub as part of your professional identity, not just homework storage
+### Geospatial apps: maps are interfaces to decisions
+I work on web mapping and dashboards where spatial + time-series data have to stay responsive and interpretable:
 
-If something here feels unfinished — good.  
-Software is never “done”; it just reaches useful plateaus.
+- interactive visualization and exploration (not just “pretty maps”)
+- workflows for large raster/time series data (COGs, Zarr, cloud-native patterns)
+- ArcGIS JS API + web UI patterns that stay responsive on real hardware and networks
 
----
+### Systems: boring reliability is the goal
+I’ve spent a lot of time building and refining the “plumbing” that makes student and research software viable:
 
-## 🛠️ Tools & ecosystems (practically, not religiously)
-
-I work across stacks depending on the problem:
-
-- **C# / .NET** — APIs, services, tooling, and long-lived systems
-- **JavaScript / TypeScript** — web apps, mapping, visualization
-- **ArcGIS JS API** and spatial data standards
-- **Python** — analysis, glue code, and prototyping
-- **SQL** — because data deserves respect
-- GitHub Actions, CI/CD, and “boring” automation that saves time later
-
-Tools are means, not identities.
+- environments that are reproducible and teachable  
+- deployment pipelines that reduce friction  
+- access control and guardrails that keep systems safe without blocking learning
 
 ---
 
-## 🧠 How I think about software
+## If you’re one of my students
 
-Some guiding principles you’ll see reflected in my work:
+This GitHub is part portfolio, part lab notebook, part teaching surface.
 
-- Clarity beats cleverness
-- Structure enables creativity
-- Data doesn’t speak — *we* give it language
-- Good systems make the right thing easier than the wrong thing
-- Production constraints are part of the design, not an afterthought
+What I’m modeling here:
 
-I’m interested in software that:
-- Can be explained to a human
-- Can be maintained by someone else
-- Can survive context switching and time
+- **structure over chaos** (repo layout, naming, commit history)
+- **readme-first thinking** (if it can’t be explained, it isn’t done)
+- **measurable progress** (small PRs, clear intent, tests where they matter)
+- **professional defaults** (linting, formatting, CI, docs, predictable branching)
 
----
-
-## 🧪 What you’ll find here
-
-Depending on the repo, you may see:
-
-- Teaching demos and reference implementations
-- Prototypes and proof-of-concepts
-- Infrastructure experiments
-- Course scaffolding and example architectures
-- Notes embedded directly in code and READMEs
-
-Not everything is meant to be cloned and run blindly.  
-Some things are meant to be *read*.
+You’re welcome to borrow patterns and approaches.  
+Don’t copy blindly — learn the why.
 
 ---
 
-## 🌐 Outside GitHub
+## Technical center of gravity
 
-I’m based in Wyoming and work closely with statewide data, research, and education initiatives.  
-I’m also involved in professional geospatial organizations and conferences, and I care deeply about **public-facing, trustworthy data systems**.
+I move between stacks depending on the problem, but you’ll see a lot of:
+
+- **C# / .NET** for APIs and long-lived systems
+- **JavaScript / TypeScript** for front-end apps and mapping UI
+- **ArcGIS JavaScript API (4.x)** for spatial visualization and interaction
+- **Python** for analysis/prototyping and “glue” workflows
+- **SQL** because spatial data still needs discipline
+
+A recurring theme in my projects: performance isn’t a micro-optimization problem — it’s usually a **data access + architecture** problem.
 
 ---
 
-## 📌 Final note
+## How I work
 
-If you’re a student reading this:  
-You don’t need to know everything yet. You do need to learn how to *learn systems*.
+A few values I try to keep visible in my code and teaching:
 
-That’s what this GitHub is for.
+- clarity beats cleverness  
+- avoid hardcoded UI/layout constraints when responsiveness is possible  
+- design for maintainers (including “future me”)  
+- treat data lineage as a feature  
+- build systems that fail loudly and recover gracefully
 
-Build things. Break things. Fix them.  
-Then write down what you learned.
+The map is not the territory — and the chart is not the data.
 
-— Nick
+---
+
+## Community & service
+
+I’m involved in statewide geospatial community work in Wyoming, including professional org leadership and efforts around data access, stewardship, and collaboration across research, education, and government.
+
+---
+
+## Contact
+
+If you’re a student: start in the course channel / course workflow first.  
+If you’re a collaborator: open an issue or reach out through the University of Wyoming / WyGISC routes.
+
+---
+
+_This profile is intentionally practical: I’m here to build things that work, teach people to build things that work, and keep the weird complexity visible without making it painful._
